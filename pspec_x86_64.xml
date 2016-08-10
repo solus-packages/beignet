@@ -1,0 +1,53 @@
+<PISI>
+    <Source>
+        <Name>beignet</Name>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>xorg.display</PartOf>
+        <Summary xml:lang="en">Intel OpenCL Implementation</Summary>
+        <Description xml:lang="en">Intel OpenCL implementation
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>beignet</Name>
+        <Summary xml:lang="en">Intel OpenCL Implementation</Summary>
+        <Description xml:lang="en">Intel OpenCL implementation
+</Description>
+        <PartOf>xorg.display</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/beignet/beignet.bc</Path>
+            <Path fileType="library">/usr/lib64/beignet/beignet.pch</Path>
+            <Path fileType="library">/usr/lib64/beignet/libcl.so</Path>
+            <Path fileType="library">/usr/lib64/beignet/libgbe.so</Path>
+            <Path fileType="library">/usr/lib64/beignet/libgbeinterp.so</Path>
+            <Path fileType="data">/usr/share/OpenCL/vendors/intel-beignet.icd</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>beignet-devel</Name>
+        <Summary xml:lang="en">Development files for beignet</Summary>
+        <Description xml:lang="en">Intel OpenCL implementation
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">beignet</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/beignet/include</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-10</Date>
+            <Version>1.1.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
