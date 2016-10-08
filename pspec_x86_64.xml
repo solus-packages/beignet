@@ -34,7 +34,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">beignet</Dependency>
+            <Dependency release="2">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -42,9 +42,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-10</Date>
-            <Version>1.1.2</Version>
+        <Update release="2">
+            <Date>2016-10-08</Date>
+            <Version>1.2.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
