@@ -1,8 +1,8 @@
 name       : beignet
 version    : 1.2.0
-release    : 2
+release    : 3
 source     :
-    - https://git.solus-project.com/projects/beignet/snapshot/beignet-1.2.0-solus.tar.gz : dc97d7b9fdec26306325bdf634514688433e58a590a76684f82620c5090e3bb4
+    - https://git.solus-project.com/projects/beignet/snapshot/beignet-e3114dcc404d2bbd56e46291155784f7c731b17f.tar.gz : b332828affb713b8f6febed7acc7302288b125d8ef6e8c918b32857b05bc8ae8
 license    : LGPL-2.1
 component  : xorg.display
 summary    : Intel OpenCL Implementation
