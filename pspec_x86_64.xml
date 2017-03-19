@@ -2,8 +2,8 @@
     <Source>
         <Name>beignet</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@skynet.be</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <PartOf>xorg.display</PartOf>
@@ -24,6 +24,34 @@
             <Path fileType="library">/usr/lib64/beignet/beignet.pch</Path>
             <Path fileType="library">/usr/lib64/beignet/beignet_20.bc</Path>
             <Path fileType="library">/usr/lib64/beignet/beignet_20.pch</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_as.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_async.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_atom.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_atom_20.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_common.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_convert.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_defines.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_enqueue.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_float.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_geometric.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_image.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_integer.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_math.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_math_20.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_memcpy.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_memset.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_misc.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_pipe.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_printf.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_relational.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_simd.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_sync.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_types.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_vload.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_vload_20.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_work_group.h</Path>
+            <Path fileType="library">/usr/lib64/beignet/include/ocl_workitem.h</Path>
             <Path fileType="library">/usr/lib64/beignet/libcl.so</Path>
             <Path fileType="library">/usr/lib64/beignet/libgbe.so</Path>
             <Path fileType="library">/usr/lib64/beignet/libgbeinterp.so</Path>
@@ -36,20 +64,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="4">beignet</Dependency>
+            <Dependency release="5">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/beignet/include</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2017-03-13</Date>
+        <Update release="5">
+            <Date>2017-03-19</Date>
             <Version>1.3.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@skynet.be</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
