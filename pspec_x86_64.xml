@@ -66,15 +66,15 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="7">beignet</Dependency>
+            <Dependency release="8">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2017-06-03</Date>
+        <Update release="8">
+            <Date>2017-10-09</Date>
             <Version>1.3.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Ikey Doherty</Name>

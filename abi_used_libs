@@ -1,6 +1,6 @@
 libEGL.so.1
 libGL.so.1
-libLLVM-4.0.so
+libLLVM-5.0.so
 libX11.so.6
 libXext.so.6
 libXfixes.so.3
