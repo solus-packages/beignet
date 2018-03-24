@@ -2,8 +2,8 @@
     <Source>
         <Name>beignet</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <PartOf>xorg.display</PartOf>
@@ -38,7 +38,6 @@
             <Path fileType="library">/usr/lib64/beignet/include/ocl_integer.h</Path>
             <Path fileType="library">/usr/lib64/beignet/include/ocl_math.h</Path>
             <Path fileType="library">/usr/lib64/beignet/include/ocl_math_20.h</Path>
-            <Path fileType="library">/usr/lib64/beignet/include/ocl_math_common.h</Path>
             <Path fileType="library">/usr/lib64/beignet/include/ocl_memcpy.h</Path>
             <Path fileType="library">/usr/lib64/beignet/include/ocl_memset.h</Path>
             <Path fileType="library">/usr/lib64/beignet/include/ocl_misc.h</Path>
@@ -56,7 +55,6 @@
             <Path fileType="library">/usr/lib64/beignet/libgbe.so</Path>
             <Path fileType="library">/usr/lib64/beignet/libgbeinterp.so</Path>
             <Path fileType="data">/usr/share/OpenCL/vendors/intel-beignet.icd</Path>
-            <Path fileType="data">/usr/share/metainfo/com.intel.beignet.metainfo.xml</Path>
         </Files>
     </Package>
     <Package>
@@ -66,19 +64,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="8">beignet</Dependency>
+            <Dependency release="9">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2017-10-09</Date>
-            <Version>1.3.1</Version>
+        <Update release="9">
+            <Date>2018-02-13</Date>
+            <Version>1.3.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
