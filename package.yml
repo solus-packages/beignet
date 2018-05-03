@@ -1,6 +1,6 @@
 name       : beignet
 version    : 1.3.2
-release    : 9
+release    : 10
 source     :
     - https://01.org/sites/default/files/beignet-1.3.2-source.tar.gz : c555edba149de23243965a703f39f79fa06f15bcff5a3762b5544b0925010b43
 license    : LGPL-2.1
@@ -19,6 +19,7 @@ builddeps  :
 rundeps    :
     - devel : opencl-headers
 setup      : |
+    %patch -p1 < $pkgfiles/llvm6.patch
     # Put OCL vendor file in right place
     sed -i 's:/etc:/usr/share:' CMakeLists.txt
     mkdir buildage && pushd buildage
@@ -30,4 +31,3 @@ install    : |
 
     # Provided by opencl-headers
     find $installdir/usr/include/CL/ -not -name "cl_intel.h" -type f -print -delete
-
