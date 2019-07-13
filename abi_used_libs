@@ -1,6 +1,6 @@
 libEGL.so.1
 libGL.so.1
-libLLVM-7.so
+libLLVM-8.so
 libX11.so.6
 libXext.so.6
 libXfixes.so.3
@@ -11,4 +11,5 @@ libdrm_intel.so.1
 libgcc_s.so.1
 libm.so.6
 libpthread.so.0
+librt.so.1
 libstdc++.so.6
