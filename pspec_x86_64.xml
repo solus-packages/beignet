@@ -2,8 +2,8 @@
     <Source>
         <Name>beignet</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Alexander Koskovich</Name>
+            <Email>zvnexus@outlook.com</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>xorg.display</PartOf>
@@ -66,19 +66,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="13">beignet</Dependency>
+            <Dependency release="14">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/CL/cl_intel.h</Path>
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2019-11-12</Date>
+        <Update release="14">
+            <Date>2020-01-27</Date>
             <Version>1.3.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Alexander Koskovich</Name>
+            <Email>zvnexus@outlook.com</Email>
         </Update>
     </History>
 </PISI>
