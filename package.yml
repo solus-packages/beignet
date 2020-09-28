@@ -1,6 +1,6 @@
 name       : beignet
 version    : 1.3.2
-release    : 15
+release    : 16
 source     :
     - git|https://github.com/intel/beignet.git : fc5f430cb7b7a8f694d86acbb038bd5b38ec389c
 license    : LGPL-2.1-or-later
@@ -21,9 +21,9 @@ rundeps    :
 setup      : |
     # Patch for newer LLVM
     git revert -n 9b7ca443cf7b 9cb7ff4c285d
-    %patch -p0 < $pkgfiles/llvm8.patch
-    %patch -p0 < $pkgfiles/llvm9.patch
-    %patch -p1 < $pkgfiles/0001-Don-t-try-to-link-against-clangCodeGen.patch
+    %patch -p1 < $pkgfiles/llvm8.patch
+    %patch -p1 < $pkgfiles/llvm9.patch
+    %patch -p1 < $pkgfiles/llvm10.patch
 
     # Put OCL vendor file in right place
     sed -i 's:/etc:/usr/share:' CMakeLists.txt

@@ -1,9 +1,9 @@
-libLLVM-9.so
+libLLVM-10.so
 libX11.so.6
 libXext.so.6
 libXfixes.so.3
 libc.so.6
-libclang-cpp.so.9
+libclang-cpp.so.10
 libdl.so.2
 libdrm.so.2
 libdrm_intel.so.1
