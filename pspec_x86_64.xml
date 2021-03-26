@@ -66,15 +66,15 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="16">beignet</Dependency>
+            <Dependency release="17">beignet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/CL/cl_intel.h</Path>
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2020-09-19</Date>
+        <Update release="17">
+            <Date>2021-03-22</Date>
             <Version>1.3.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Campbell Jones</Name>
